@@ -8,7 +8,7 @@ var squares=document.querySelectorAll('td');
 //clear all square
 function clearBoard(){
   for (var i = 0; i < squares.length; i++) {
-    squares[i].textContent='';
+    squares[i].textContent='';//grab current cell and change it's text content to blank
   }
 }
 
