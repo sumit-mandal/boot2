@@ -36,5 +36,5 @@ print("To reverse the list:",mylistVar)
 
 mylistVar2=[8,4,9,11,88,5]
 
-mylistVar2.sort()
+mylistVar2.sort(reverse=True)
 print("To sort the data:",mylistVar2)
