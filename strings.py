@@ -22,8 +22,20 @@ print("Removing letter o ",l)
 
 #print formatting
 
-variable3="Insert another string here:{}".format("Insert me!")
+variable3="Insert {} another function here:".format("Insert me!")
 print(variable3)
 
 variable4="Item one:{b} Item two:{a}".format(a="dog",b="cat")
 print(variable4)
+
+a="dog"
+b="cat"
+print(f"Item one {a} and item two {b}")
+
+
+name = 'Peter'
+age = 23
+
+print('%s is %d years old' % (name, age))
+print('{} is {} years old'.format(name, age))
+print(f'{name} is {age} years old')
